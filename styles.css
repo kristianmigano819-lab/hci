@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover, nav a.active {
+    border-bottom: 2px solid black;
+}
+
+.home-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    background: white;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px -5px #333;
+    border-radius: 6px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-grid img {
+    max-width: 150px;
+    margin: 15px;
+}
+
+.product-item {
+  text-align: center;   
+  padding: 20px;
+  border: 1px solid lightgray; 
+  border-radius: 8px; 
+  background-color: #fafafa; 
+  margin: 10px;
+  flex: 1 1 200px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.product-item img {
+  max-width: 200px; 
+  height: auto; 
+  margin-bottom: 5px; 
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    line-height: 1.8;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.container p {
+  font-size: 16px; 
+  line-height: 1.6; 
+  color: #333; 
+  text-align: justify;
+  letter-spacing: 0.5px;
+  margin-top: 15px; 
+}
+
+.container h2 {
+  font-size: 28px; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+  letter-spacing: 1.2px;
+}
+
+.container h3 {
+  font-size: 20px; 
+  font-weight: bold; 
+  margin-bottom: 15px; 
+  letter-spacing: 1.2px;
+}
